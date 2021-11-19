@@ -2,6 +2,8 @@
 
 Docker image for the Avahi mDNS/DNS-SD daemon. Built on Alpine Linux to make the image as small as possible. Highly configurable through environment variables to support most usecases which need an Avahi Daemon.
 
+**This fork has support for Docker multiple architectures, and has been built and published to DockerHub with the following platforms:** `linux/i386`, `linux/amd64`, `linux/arm/v6`, `linux/arm/v7` & `linux/arm64`.
+
 ## Usage
 
 Basic usage consists of running the docker container with the appropriate environment variables and volumes to achieve your desired behaviour.
